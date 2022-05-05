@@ -26,11 +26,13 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Hero(
-                  tag: 'lightning_logo',
-                  child: Container(
-                    child: Image.asset('images/logo.png'),
-                    height: 90.0,
+                Flexible(
+                  child: Hero(
+                    tag: 'lightning_logo',
+                    child: Container(
+                      child: Image.asset('images/logo.png'),
+                      height: 90.0,
+                    ),
                   ),
                 ),
                 DefaultTextStyle(

@@ -20,6 +20,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   animated_text_kit: ^4.2.1
   animated_text: ^1.0.2
+  firebase_core: ^1.15.0
+  firebase_auth: ^3.3.16
+  cloud_firestore: ^3.1.13
+  flutter_loadingindicator: ^1.0.1
 
 dev_dependencies:
   flutter_test:
